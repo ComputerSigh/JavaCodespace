@@ -134,6 +134,7 @@ public class BoardArea extends Canvas implements FiniteStateMachine {
 			last = next;
 		 }
 	  }
+		/* 
 	  if(points.size()>=2) {
 		 g.setColor(Color.black);
 		 for(int i=0; i<points.size()-1; i++)
@@ -143,6 +144,7 @@ public class BoardArea extends Canvas implements FiniteStateMachine {
             	       g.drawLine((int) points.get(i).getX(), (int) points.get(i).getY(), (int) points.get(j).getX(), (int) points.get(j).getY());	   
 			}
 	  }
+		*/
    }
 
    public void drawFractal(Graphics g, Point p1, Point p2) {
